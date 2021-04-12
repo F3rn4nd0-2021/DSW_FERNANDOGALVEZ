@@ -1,0 +1,68 @@
+h1 {
+
+    text-align: center;
+}
+
+footer{
+    background-color: burlywood;
+
+}
+
+
+.navindex {
+    background-color: goldenrod;
+}
+
+.secindex {
+    float: left;
+    width: 30%;
+    background-color: deepskyblue;
+}
+
+.subtitulo {
+    color: chartreuse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.seces1{
+    
+    background-color: darkgray;
+    width: 78%;
+
+
+}
+
+.ima1{
+
+    background-color: burlywood;
+    width: 20%;
+    
+   
+}
+.h1 {
+    background-color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+.etiaside{
+    float:right;
+    background-color: whitesmoke;
+    color: white;
+    overflow: hidden;
+}
+img{
+    display:block;
+    margin:auto;
+    }
+.cll{
+    background-color: rgb(86, 160, 179);
+    width: 78%;
+}
+
+.h2{
+    color: rgb(59, 30, 55);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
