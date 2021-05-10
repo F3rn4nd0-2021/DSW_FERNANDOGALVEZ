@@ -1,0 +1,15 @@
+.he1{
+    float: left;
+    background-color: rgb(6, 196, 164);
+    width: 75%;
+
+}
+.he2{
+    float:right;
+    background-color: rgb(88, 156, 235);
+    width: 20%;
+}
+
+h1{
+    text-align: center
+}

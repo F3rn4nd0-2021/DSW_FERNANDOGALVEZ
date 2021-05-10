@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos css/stilos.css">
+    <link rel="stylesheet" href="estilos css/menu.css">
+</head>
+<body>
+    
+<header> 
+    <h1 class="h1"> LISTAS Y ENLACES </h1>
+</header>
+<br><br>
+
+<nav class="menu">
+
+  <ul class="me1">
+     <li >  INICIO
+         <ul class="submenu">
+           <li> <a href="index.html">INICIO</a></li>
+         </ul>
+     </li> 
+
+     <li>TEMAS
+       <ul  class="submenu">
+       <li> <a href="etiquetas semanticas.html">ETIQUETAS SEMANTICAS </li></a> 
+       <li> <a href="listas y enlaces.html">LISTAS Y ENLACES </li></a>
+       </ul>
+     </li> 
+
+       
+     <li>RECURSOS DIGITALES
+
+       <ul class="submenu" >
+       <li> <a href= "recursos digitales e.s.html">ETIQUETAS SEMANTICAS </li> </a> 
+       <LI> <a href= "recursos digitales l.e.html">LISTAS Y ENLACES     </LI> </a> 
+       </ul>   
+
+     </li>
+
+   <LI>ACTIVIDADES
+
+    <ul class="submenu">
+    <li><a href="#">ACTIVIDAD 01</li></a> 
+    <li><a href="#">ACTIVIDAD 02</li></a> 
+    </ul> 
+   </LI>
+    
+
+   
+   <li>AUTOR
+    <ul class="submenu">
+    <li><a href="autor.html">FERNANDO ANTONIO GALVEZ MORENO</a> </li> 
+    </ul> 
+   </li>
+
+
+  </ul>
+
+</nav>
+ <br><br><br><br>
+
+
+<header class="etiaside">
+        
+    <img src="ima2 .png " alt="estructura"> <br> <br> <br>
+
+    <iframe width="250" height="200" src="https://www.youtube.com/embed/ov4CWWsRinE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+</header>  
+
+ <section class="seces1"> 
+     <h2 class=" h2"> LISTAS EN HTML</h2>
+
+
+     <article>
+       <P>
+           <H4>¿PARA QUÉ SIRVEN?</H4>
+           Las listas en HTML nos permite crear conjuntos de elementos en forma de lista dentro de una página, todos los cuales irán precedidos, generalmente, por un guión o número.
+
+           <h3>TIPOS DE LISTAS</h3>
+            <ul>
+                    <li>Listas ordenadas </li>
+                    <li>Listas desordenadas</li>
+                    <li>Listas de definiciones</li>
+            </ul>
+
+
+
+          
+        </P>      
+
+             <h4 class="h2">LISTAS ORDENADAS</h4>
+             <P>
+                Las listas ordenadas son aquellas que nos muestran los elementos de la lista en orden. Para representar el orden tendremos los elementos numerados. Es decir, cada uno de los elementos irá precedido de un número o letra que establezca su orden. <br> <br>
+                Las listas ordenadas se representan mediante el elemento OL. <br> <br><br>
+                 <b>< ol> ... < /ol></b>
+
+             </P>
+            
+              <img src="listas li.JPG" alt="diseño de lista">
+            <h4> USO DEL START EN LAS LISTAS ORDENADAS </h4>
+            <P> 
+                El atributo start nos permite indicar el número por el cual queremos que empiece la lista, ya que por defecto las listas ordenadas en HTML empiezan por el número 1. <br><br><br>
+                <strong> < ol start= "numero">  ... < /ol>  </strong>
+            </P>
+
+            <img src="lista start.JPG" alt="lista start">
+
+            <h4> USO DEL TYPE EN LAS LISTAS ORDENADAS </h4>
+            <P>
+                De igual manera podemos indicar el tipo de lista ordenada en HTML que queremos representar.
+
+                 Entre los tipos de listas que podemos representar tenemos:
+                 <ul>
+                   <li>1 - Listas decimales</li> 
+                   <li>a - Listas alfabéticas en minúsculas</li> 
+                   <li>A - Listas alfabéticas en mayúsculas</li> 
+                   <li>i - Listas de números romanos en minúsculas</li> 
+                   <li>I - Listas de números romanos en mayúsculas</li> 
+                 </ul>
+               <img src="uso type.JPG" alt="uso del type">
+           
+            </P>
+     
+           <h4 class="h2">LISTAS DESORDENADAS </h4>
+           <P>
+            Las listas desordenadas en HTML nos sirven para mostrar los elementos sin ningún tipo de orden, simplemente precedidos por una viñeta que puede ser un punto, un cuadrado,… <br><br>
+
+            Para definir una lista desordenada en HTML utilizamos el elemento ul. <br>
+             <strong>< ul> ... < /ul> </strong>
+           </P>
+           <img src="lista desordenada.JPG" alt="lista desordenada">
+       
+          
+           <h4>TIPOS DE LISTAS DESORDENADAS</h4>
+           <P>
+            En el caso de las listas en HTML desordenadas en HTML no podemos indicarle el tipo de lista mediante HTML. En este caso tenemos que recurrir a CSS para poder indicar el tipo de lista utilizando el atributo list-style-type <br><br>
+           </P>
+            
+           <img src="listas desordenadas en css.JPG" alt="listas desordenadas en css">
+           
+           <h4 class="h2">LISTAS DE DEFINICIONES </h4>
+
+           <P>
+            Las listas d definición nos sirven para montar listas en las que tenemos la estructura valor y definición. Suelen ser listas para definir términos, como si fuese un diccionario, si bien pueden ser cualquier par valor-definición. <br><br>
+
+            Las listas en HTML de definiciones en HTML se construyen mediante el elemento dl. <br>
+            <strong> < dl> ... < /dl> </strong>
+
+           </P>
+
+           <img src="lista de deficiones.JPG" alt="lista de definiciones">
+            
+
+           <h4>LISTAS ANIDADAS</h4>
+           <P>
+            Cuando estemos manejando listas podemos anidar unas en otras independientemente del tipo de lista que estemos anidando. <br><br>
+
+            Para crear listas anidadas en HTML simplemente tenemos que hacer que el elemento de una de las listas sea a su vez una lista. Es decir, el esquema de listas sería parecido al siguiente: <br><br>
+           </P>
+
+           <img src="listas anidadas.JPG" alt="listas anidadas">
+          <br> <br><br>
+
+         <h2 class="h2"> Enlaces HTML </h2>
+          
+         <h3> ¿Qué son los enlaces en HTML? </h3>
+
+         <p>
+            Mediante los enlaces en HTML podemos comunicar una página con otra. De esta forma, enlazando documentos HTML podemos acabar tejiendo lo que es Internet. <br><br>
+
+            Para crear un enlace en HTML utilizamos el elemento A con la siguiente sintaxis: <br><br>
+
+            <strong> < a href="URI">Contenido del enlace< /a> </strong>
+
+         </p>
+         <h4> Destino del enlace</h4>
+
+         <p> 
+            Pero, ¿dónde se abre el enlace? Pues por defecto y si no hemos configurado nada en el navegador web que estemos utilizando el enlace se abre en la misma ventana en la que tengamos el enlace.
+
+            Si bien, en el enlace, podemos indicar el destino que queremos darle a dicho enlace. Eso lo podemos hacer mediante el atributo target. Los posibles valores que admite el atributo target son:
+            
+            <ul>
+             <li><strong>blank,</strong>l agente de usuario intentará abrir el enlace en una nueva ventana. La nueva ventana no tendrá nombre.</li>
+             <li><strong>self</strong>el agente de usuario intentará abrir el enlace en el mismo marco donde está en código actual.</li>
+             <li><strong>parent</strong>el agente de usuario intentará abrir el enlace en el frameset inmediatamente superior al que se encuentra la página. Esto suele suceder cuando tenemos el enlace en un área de frames.</li>
+             <li><strong>top</strong> el agente de usuario intentará abrir el enlace en la ventana padre. En el caso de que exista un frameset lo eliminará y se hará con toda la ventana.</li>
+             <li><strong>nombre_marco</strong> se podrá indicar el nombre de un frame. En este caso el agente de usuario intentará abrir el enlace en el frame que coincida con el nombre. En el caso de no existir un frame con ese nombre lo abrirá en una nueva ventana, asignándole dicho nombre.</li>
+            </ul> 
+
+         </p>
+
+          <img src="tipos de enlaces.JPG " alt="tipos de enlces">
+        
+          <h4 class="h2">Enlaces en HTML con imágenes</h4>
+         <p>
+            De esta forma toda la imagen será un elemento enlazable que nos llevará, en el caso de pinchar sobre ella, al destino indicado en el [atributo href][Href]. <br><br>
+
+            Esta técnica se suele utilizar para presentar una imágen de baja resolución y tamaño, que al pulsarla nos cargue una imagen con mayor resolución y tamaño. Un código que podría ser de la siguiente forma: <br><br>
+
+
+         </p>
+          <img src="enlace 1.JPG" alt="enlace imagen">
+          <img src="enlace 2.JPG" alt="elace imagen">
+          
+          <h4 class="h2">Enlaces en HTML para descargar fichero</h4>
+
+          <p>
+            Otro de los usos que se les da a los enlaces en HTML es el de habilitar la descarga de ficheros. En este caso el destino indicado por el [atributo href][Href] debe de ser el fichero que queremos descargar. En estos casos es bueno que el fichero a descargar este comprimido. <br><br>
+
+            El código quedaría de la siguiente forma: <br><br>
+
+          </p>
+          <img src="enlace fichero.JPG" alt="enlace fichero">
+          <br><br><br>
+        </article>
+ </section>
+
+
+
+ <footer>
+    <address>
+        <h6>TOMADO DE:</h6>
+        <a href="http://www.manualweb.net/html/listas-html/ ">http://www.manualweb.net/html/listas-html/</a> <br><br>
+        <a href="http://www.manualweb.net/html/enlaces-html/">http://www.manualweb.net/html/enlaces-html/</a>
+
+       </address>
+ </footer>
+</body> 
+</html>
